@@ -1,0 +1,32 @@
+@font-face {
+    font-family: gilroy;
+    src        : url(../fonts/Gilroy-Light.otf);
+}
+
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: gilroy;
+    
+}
+.b{
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.b1{
+    width: 20%;
+    height: 100%;
+    background: black;
+   
+    /* position: absolute;
+    left: 0;*/
+} 
+.b2{
+    width:79% ;
+    height: 200vh;
+    background: red;
+  
+}
